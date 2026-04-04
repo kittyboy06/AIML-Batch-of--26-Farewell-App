@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #09090b;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+
+  --color-gold-50: #fefce8;
+  --color-gold-100: #fef9c3;
+  --color-gold-200: #fef08a;
+  --color-gold-300: #fde047;
+  --color-gold-400: #facc15;
+  --color-gold-500: #eab308;
+  --color-gold-600: #ca8a04;
+  --color-gold-700: #a16207;
+  --color-gold-800: #854d0e;
+  --color-gold-900: #713f12;
+  --color-gold-950: #422006;
+}
+
+body {
+  @apply bg-obsidian text-white font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-display tracking-tight;
+}
+
+.text-gradient-gold {
+  @apply bg-gradient-to-br from-gold-300 via-gold-500 to-gold-600 bg-clip-text text-transparent;
+}
+
+.bg-glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.bg-glass-gold {
+  @apply bg-white/5 backdrop-blur-xl border border-gold-500/30;
+}

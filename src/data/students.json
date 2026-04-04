@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1,
+    "rollNo": "130722148001",
+    "name": "Abarna P",
+    "image": "/alumni/1.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 2,
+    "rollNo": "130722148002",
+    "name": "Abinash S",
+    "image": "/alumni/2.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 3,
+    "rollNo": "130722148003",
+    "name": "Ajay S",
+    "image": "/alumni/3.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 4,
+    "rollNo": "130722148004",
+    "name": "Amirthaa R",
+    "image": "/alumni/4.jpeg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 5,
+    "rollNo": "130722148005",
+    "name": "Amuthan S",
+    "image": "/alumni/5.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 6,
+    "rollNo": "130722148006",
+    "name": "Anbuselvan S",
+    "image": "/alumni/6.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 7,
+    "rollNo": "130722148008",
+    "name": "Barath Raaj S A",
+    "image": "/alumni/7.jpeg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 8,
+    "rollNo": "130722148009",
+    "name": "Bennyhinn Samuel Rao B",
+    "image": "/alumni/8.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 9,
+    "rollNo": "130722148010",
+    "name": "Birunthavathy E",
+    "image": "/alumni/9.png",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 10,
+    "rollNo": "130722148011",
+    "name": "Deepasangkini K",
+    "image": "/alumni/10.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 11,
+    "rollNo": "130722148012",
+    "name": "Devaki M",
+    "image": "/alumni/11.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 12,
+    "rollNo": "130722148013",
+    "name": "Divya G",
+    "image": "/alumni/12.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 13,
+    "rollNo": "130722148014",
+    "name": "Haripriya T",
+    "image": "/alumni/13.jpeg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 14,
+    "rollNo": "130722148015",
+    "name": "Jagadeesh A",
+    "image": "/alumni/14.jpeg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 15,
+    "rollNo": "130722148016",
+    "name": "Johnson M",
+    "image": "/alumni/15.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 16,
+    "rollNo": "130722148017",
+    "name": "Josiba M",
+    "image": "/alumni/16.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 17,
+    "rollNo": "130722148018",
+    "name": "Keerthigaa P",
+    "image": "/alumni/17.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 18,
+    "rollNo": "130722148019",
+    "name": "Lakshya Sree S",
+    "image": "/alumni/18.png",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 19,
+    "rollNo": "130722148020",
+    "name": "Lingeshwaran N",
+    "image": "/alumni/19.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 20,
+    "rollNo": "130722148021",
+    "name": "Loshini K",
+    "image": "/alumni/20.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 21,
+    "rollNo": "130722148022",
+    "name": "Madhumitha C",
+    "image": "/alumni/21.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 22,
+    "rollNo": "130722148023",
+    "name": "Malathi J",
+    "image": "/alumni/22.png",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 23,
+    "rollNo": "130722148024",
+    "name": "Malavika S",
+    "image": "/alumni/23.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 24,
+    "rollNo": "130722148025",
+    "name": "Manish Balaji S R",
+    "image": "/alumni/24.png",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 25,
+    "rollNo": "130722148026",
+    "name": "Mugilan V",
+    "image": "/alumni/25.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 26,
+    "rollNo": "130722148027",
+    "name": "Mukesh A",
+    "image": "/alumni/26.JPG",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 27,
+    "rollNo": "130722148028",
+    "name": "Nirmal Chander S K",
+    "image": "/alumni/27.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 28,
+    "rollNo": "130722148029",
+    "name": "Palkis Beevi J",
+    "image": "/alumni/28.jpeg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 29,
+    "rollNo": "130722148030",
+    "name": "Prajith G",
+    "image": "/alumni/29.JPG",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 30,
+    "rollNo": "130722148031",
+    "name": "Prakash Rai P",
+    "image": "/alumni/30.png",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 31,
+    "rollNo": "130722148032",
+    "name": "Prithigadevi V",
+    "image": "/alumni/31.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 32,
+    "rollNo": "130722148033",
+    "name": "Raghul Kumar K",
+    "image": "/alumni/32.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 33,
+    "rollNo": "130722148034",
+    "name": "Rakesh Kanna A",
+    "image": "/alumni/33.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 34,
+    "rollNo": "130722148035",
+    "name": "Ramya P",
+    "image": "/alumni/34.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 35,
+    "rollNo": "130722148036",
+    "name": "Raveena S",
+    "image": "/alumni/35.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 36,
+    "rollNo": "130722148037",
+    "name": "Rifa Fathima S",
+    "image": "/alumni/36.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 37,
+    "rollNo": "130722148038",
+    "name": "Sakthi R",
+    "image": "/alumni/37.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 38,
+    "rollNo": "130722148039",
+    "name": "Samuel Matthew S",
+    "image": "/alumni/38.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 39,
+    "rollNo": "130722148040",
+    "name": "Samuval Ashwin Raj M",
+    "image": "/alumni/39.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 40,
+    "rollNo": "130722148041",
+    "name": "Sanjith Rozario S",
+    "image": "/alumni/40.jpeg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 41,
+    "rollNo": "130722148042",
+    "name": "Saravanan M",
+    "image": "/alumni/41.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 42,
+    "rollNo": "130722148043",
+    "name": "Selvaraj G",
+    "image": "/alumni/42.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 43,
+    "rollNo": "130722148044",
+    "name": "Shanmuga Sundaram M",
+    "image": "/alumni/43.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 44,
+    "rollNo": "130722148045",
+    "name": "Shivani R",
+    "image": "/alumni/44.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 45,
+    "rollNo": "130722148046",
+    "name": "Sivaram S",
+    "image": "/alumni/45.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 46,
+    "rollNo": "130722148047",
+    "name": "Sivasangari M",
+    "image": "/alumni/46.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 47,
+    "rollNo": "130722148048",
+    "name": "Sri Hari M",
+    "image": "/alumni/47.png",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 48,
+    "rollNo": "130722148049",
+    "name": "Subash P",
+    "image": "/alumni/48.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 49,
+    "rollNo": "130722148050",
+    "name": "Surya S",
+    "image": "/alumni/49.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 50,
+    "rollNo": "130722148051",
+    "name": "Tarun Kumar T",
+    "image": "/alumni/50.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 51,
+    "rollNo": "130722148052",
+    "name": "Tharun S",
+    "image": "/alumni/51.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 52,
+    "rollNo": "130722148053",
+    "name": "Thiyageshwaran S",
+    "image": "/alumni/52.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 53,
+    "rollNo": "130722148054",
+    "name": "Udaya Kumar S",
+    "image": "/alumni/53.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 54,
+    "rollNo": "130722148055",
+    "name": "Varnikhasri S",
+    "image": "/alumni/54.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 55,
+    "rollNo": "130722148056",
+    "name": "Varshini R",
+    "image": "/alumni/55.webp",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 56,
+    "rollNo": "130722148057",
+    "name": "Vinoth Kumar E",
+    "image": "/alumni/56.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  },
+  {
+    "id": 57,
+    "rollNo": "130722148301",
+    "name": "Sudharsan N",
+    "image": "/alumni/57.jpg",
+    "focus": "AIML BATCH 2022-2026",
+    "status": "GRADUATE"
+  }
+]
