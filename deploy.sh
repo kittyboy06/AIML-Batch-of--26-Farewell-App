@@ -14,46 +14,27 @@ echo "🚀 Starting deployment process..."
 echo "📦 Building the project..."
 npm run build
 
-# 2. Navigate into the built output directory
-cd dist
-
-# 3. Bypass Jekyll processing on GitHub Pages
+# 2. Bypass Jekyll processing on GitHub Pages
 # This ensures files/folders starting with an underscore are not ignored
-echo > .nojekyll
+echo > dist/.nojekyll
 
-# Ensure we start with a clean git repository for the deploy
-rm -rf .git
-
-# 4. Initialize a temporary Git repository inside the dist folder
-echo "⚙️ Initializing deployment repository..."
-git init
-git checkout -B main
-git add -A
-
-# We use an empty commit fallback just in case no files changed between builds
-git commit -m "deploy: $(date +"%Y-%m-%d %H:%M:%S")" --allow-empty
-
-# 5. Determine the remote URL
+# 3. Determine the remote URL
 # Prioritize the provided argument, otherwise fallback to the origin of the parent folder
 REPO_URL=$1
 if [ -z "$REPO_URL" ]; then
-  # Go back to root to find the origin URL safely
-  cd ..
-  REPO_URL=$(git config --get remote.origin.url)
-  cd dist
+  # Grab the URL natively if one exists
+  REPO_URL=$(git config --get remote.origin.url || true)
   
   if [ -z "$REPO_URL" ]; then
     echo "❌ Error: Could not determine Git repository URL."
-    echo "Please provide it as an argument: ./deploy.sh <REPO_URL>"
+    echo "You must provide it as an argument because 'origin' is not set."
+    echo "Run it like this: ./deploy.sh git@github.com:USERNAME/REPO.git"
     exit 1
   fi
 fi
 
-# 6. Force push the built application to the gh-pages branch
-echo "🚀 Pushing to gh-pages branch of $REPO_URL..."
-git push -f "$REPO_URL" main:gh-pages
+# 4. Use the gh-pages module to securely branch and push the 'dist' folder exclusively
+echo "⚙️ Pushing specifically to the gh-pages branch of $REPO_URL..."
+npx gh-pages -d dist -r "$REPO_URL" -t true -b gh-pages
 
-# 7. Clean up by navigating back
-cd -
-
-echo "✅ Successfully deployed to gh-pages!"
+echo "✅ Successfully deployed branch!"
