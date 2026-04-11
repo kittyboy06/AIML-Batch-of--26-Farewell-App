@@ -5,6 +5,7 @@
 
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Manrope", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
 
   --color-gold-50: #fefce8;
   --color-gold-100: #fef9c3;
@@ -37,4 +38,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-glass-gold {
   @apply bg-white/5 backdrop-blur-xl border border-gold-500/30;
+}
+
+/* Custom scrollbar for the album lightbox */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(234, 179, 8, 0.3);
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(234, 179, 8, 0.5);
 }

@@ -1,14 +1,29 @@
 import { motion } from "framer-motion";
 
 const MEMORIES = [
-  { id: 1, text: "You all built the future while breaking the dev servers. Proud of you.", author: "Dr. L. Vance", role: "HOD, AIML", rot: -2 },
-  { id: 2, text: "May your loss functions always converge to the global minimum, class of '26!", author: "Prof. K. Reynolds", role: "Deep Learning Instructor", rot: 1 },
-  { id: 3, text: "The first batch to truly understand that prompt engineering is more art than science.", author: "S. Gupta", role: "Junior Lead", rot: -1 },
-  { id: 4, text: "I'll never forget the 3AM GPU crunch before final submissions.", author: "A. Patel", role: "Lab Assistant", rot: 2 },
-  { id: 5, text: "You set the bar impossibly high. Now go change the world.", author: "Dr. M. Chen", role: "Ethics in AI", rot: -1.5 },
-  { id: 6, text: "Remember to occasionally step out of the latent space and enjoy reality.", author: "Prof. D. Wright", role: "Computer Vision", rot: 1.5 },
-  { id: 7, text: "The legacy you leave behind is written in clean, optimized matrices.", author: "J. Doe", role: "Research Associate", rot: -0.5 },
-  { id: 8, text: "Farewell, architects of tomorrow. Your journey has just begun.", author: "Dean J. Smith", role: "Faculty of Engineering", rot: 0.5 },
+  { id: 101, text: "I just wanted to thank you for your support", author: "Naveen Raji M", role: "Junior", rot: 1.5 },
+  { id: 102, text: "Will be missed for sure!!!!have a great life seniors🧿🔥🌟", author: "R.Nandhini", role: "Junior", rot: -1.5 },
+  { id: 103, text: "One of the best seniors we got,we were lucky enough to get a friendly Anna's and Akka's and thanks guys for your guidance 🥹🙏🏾", author: "Junior Batch", role: "To Seniors", rot: 0.5 },
+  { id: 1, text: "Thank you, Pragadesh, for always being so supportive and kind. Your guidance really meant a lot to us. We’ll truly miss you and all the fun moments we shared!", author: "Junior Batch", role: "To Pragadesh", rot: -2 },
+  { id: 2, text: "Jayasooriya, you’ve been such an amazing senior and inspiration to us. Your positivity and encouragement made a big difference. Wishing you all the best—we’ll miss you a lot!", author: "Junior Batch", role: "To Jayasooriya", rot: 1 },
+  { id: 3, text: "Afsal, thank you for being such a friendly and helpful senior. You made things easier and more enjoyable for all of us. You’ll definitely be missed!", author: "Junior Batch", role: "To Afsal", rot: -1 },
+  { id: 4, text: "Akshaya, you’ve been more than just a senior—you’ve been a mentor and a friend. Thank you for all your support and guidance. We’re lucky to have had you!", author: "Junior Batch", role: "To Akshaya", rot: 2 },
+  { id: 5, text: "Thank you for always guiding us and being so supportive. We’ll truly miss you and wish you all the success ahead!", author: "Junior Batch", role: "To Seniors", rot: -1.5 },
+  { id: 6, text: "It was really great having you as our senior. Your kindness and encouragement meant a lot to us.", author: "Junior Batch", role: "To Seniors", rot: 1.5 },
+  { id: 7, text: "You’ve been an amazing mentor and friend. Thank you for everything—you’ll always be remembered!", author: "Junior Batch", role: "To Seniors", rot: -0.5 },
+  { id: 8, text: "We’re lucky to have had such wonderful seniors. Wishing you success and happiness in everything you do!", author: "Junior Batch", role: "To Seniors", rot: 0.5 },
+  { id: 9, text: "Your support and positivity made our journey better. We’ll miss you a lot!", author: "Junior Batch", role: "To Seniors", rot: -2 },
+  { id: 10, text: "Thank you for all the memories, guidance, and fun moments. Farewell and best wishes!", author: "Junior Batch", role: "To Seniors", rot: 1 },
+  { id: 11, text: "You’ve left a lasting impact on us. We’ll always remember your support and kindness.", author: "Junior Batch", role: "To Seniors", rot: 1.5 },
+  { id: 12, text: "College won’t be the same without you. Thank you for everything and all the best for your future!", author: "Junior Batch", role: "To Seniors", rot: -1 },
+  { id: 13, text: "Your presence made a difference in our lives. We’re grateful and will miss you dearly.", author: "Junior Batch", role: "To Seniors", rot: 2 },
+  { id: 14, text: "Wishing you success, happiness, and a bright future ahead. Thank you for being such a great senior!", author: "Junior Batch", role: "To Seniors", rot: -0.5 },
+  { id: 15, text: "Thank you for being approachable and always ready to help us. We’ll miss you!", author: "Junior Batch", role: "To Seniors", rot: -1.5 },
+  { id: 16, text: "Your guidance and support made a big impact on us. All the best for your future!", author: "Junior Batch", role: "To Seniors", rot: 0.5 },
+  { id: 17, text: "We’ll always remember the memories and lessons you gave us. Thank you!", author: "Junior Batch", role: "To Seniors", rot: -2 },
+  { id: 18, text: "You made our college life better and more fun. We’ll miss you a lot!", author: "Junior Batch", role: "To Seniors", rot: 1.5 },
+  { id: 19, text: "Thank you for being such an inspiring and caring senior. Wishing you success ahead!", author: "Junior Batch", role: "To Seniors", rot: -1 },
+  { id: 20, text: "It’s hard to say goodbye to such amazing seniors. Thank you for everything!", author: "Junior Batch", role: "To Seniors", rot: 2 },
 ];
 
 export default function TributeWall() {
@@ -19,7 +34,7 @@ export default function TributeWall() {
           Luminary Voices
         </h1>
         <p className="text-xl text-white/50 max-w-2xl mx-auto font-body text-center">
-          Echoes from the faculty and friends who guided you through the latent space.
+          Heartfelt messages and farewell wishes from the juniors who looked up to you.
         </p>
       </div>
 

@@ -36,10 +36,10 @@ export default function Home() {
           className="inline-block"
         >
           <Link
-            to="/timeline"
+            to="/album"
             className="group relative flex items-center gap-4 px-12 py-6 bg-gradient-to-r from-gold-500 to-gold-600 rounded-full text-obsidian font-bold text-lg uppercase tracking-widest shadow-[0_0_40px_rgba(234,179,8,0.4)] hover:shadow-[0_0_60px_rgba(234,179,8,0.6)] transition-all"
           >
-            Enter The Journey
+            Explore The Album
             <motion.div
               initial={{ x: 0 }}
               animate={{ x: [0, 5, 0] }}

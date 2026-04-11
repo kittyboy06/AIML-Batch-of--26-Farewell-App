@@ -1,16 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import App from './App.tsx'
 import './index.css'
 
-// Placeholder imports for pages we will create next
 import Home from './pages/Home.tsx'
-import Timeline from './pages/Timeline.tsx'
+import Album from './pages/Album.tsx'
 import HallOfFame from './pages/HallOfFame.tsx'
 import TributeWall from './pages/TributeWall.tsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
@@ -20,8 +19,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/timeline',
-        element: <Timeline />,
+        path: '/album',
+        element: <Album />,
       },
       {
         path: '/hall-of-fame',
